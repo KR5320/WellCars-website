@@ -1,0 +1,678 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Setting swiper css sistem code-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+
+        <!--header manu-->
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <!--header logo name-->
+        <a href="#" class="logo"> <span>WELL</span>CARS <h6 id="p1">making your life so much easier</h6> </a>
+
+
+        <!--Varables-->
+
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#vehicles">CARS</a>
+            <a href="#services">SERVICE</a>
+            <a href="#featured">FEATURES</a>
+            <a href="#reviews">REVIEWS</a>
+            <a href="#contact">CONTACT US</a>
+        </nav>
+
+        <!--setting Log+in btn -->
+
+        <div id="login-btn">
+            <button class="btn">LOG+IN</button>
+            <i class="far fa-user"></i>
+        </div>
+
+    </header>
+    <!--Database of Log+in area-->
+    <div class="login-form-container">
+
+        <span id="close-login-form" class="fas fa-times"></span>
+
+        <form action="">
+            <h3>!!Please Enter!!</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p> If you forgot you'r password <a href="#">Click here</a> </p>
+            <input type="submit" value="login" class="btn">
+            <p>Or you can login with</p>
+            <div class="buttons">
+                <a href="#" class="btn"> Google </a>
+                <a href="#" class="btn"> Facebook </a>
+            </div>
+            <p> If you do not have a previous account on this website <a href="#">create an account here</a> </p>
+        </form>
+
+    </div>
+    <!--Database of Home link title and btn-->
+    <section class="home" id="home">
+
+        <h1 data-speed="-1" class="home-parallax">CHOOSE YOUR VEHICLE</h1>
+        <br />
+        <br />
+        <br />
+        <a data-speed="1" href="#" class="btn home-parallax">Cars to explore</a>
+
+    </section>
+
+
+    <!--Details for the icons container -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="content">
+                <h3>150+</h3>
+                <p>branches</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>4770+</h3>
+                <p>cars sold</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>320+</h3>
+                <p>happy clients</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>1500+</h3>
+                <p>news cars</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--Vehicles you may like-->
+
+    <section class="vehicles" id="vehicles">
+
+        <h1 class="heading"> popular <span>vehicles</span> </h1>
+
+        <!--Setting the automatic swiper-->
+        <div class="swiper vehicles-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="Image/vehicle-1.png" alt="">  <!--Car img-->
+                    <div class="content">
+                        <h3>Porche-911</h3>
+                        <div class="price"> <span>price : </span> $32,000/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 160mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/vehicle-2.jpg" alt="">  <!--Car img-->
+                    <div class="content">
+                        <h3>Altima Cross</h3>
+                        <!--Car Details-->
+                        <div class="price"> <span>price : </span> $45,000/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 183mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/vehicle-3.jpg" alt="">  <!--Car img-->
+                    <div class="content">
+                        <h3>Honda Stripe</h3>
+                        <!--Car Details-->
+                        <div class="price"> <span>price : </span> $26,000/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 200mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/vehicle-4.jpg" alt="">  <!--Car img-->
+                    <div class="content">
+                        <h3>Cougar XLE</h3>
+                        <!--Car Details-->
+                        <div class="price"> <span>price : </span> $62,000/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> Semi/automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 340mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/vehicle-5.jpg" alt="">  <!--Car img-->
+                    <div class="content">
+                        <h3>Acura Sanafello</h3>
+                        <!--Car Details-->
+                        <div class="price"> <span>price : </span> $40,000/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 100mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/vehicle-6.png" alt="">  <!--Car img-->
+                    <div class="content">
+                        <h3>Porche Van-911</h3>
+                        <!--Car Details-->
+                        <div class="price"> <span>price : </span> $62,000/- </div>
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 142mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <!--Setting END of the automatic swiper-->
+    </section>
+
+    <!--Setting Detail services-->
+    <section class="services" id="services">
+
+        <h1 class="heading"> Our <span>services</span></h1>
+        <h2>That you Need..!</h2>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="Image/part1.png" alt="">
+                <i class="fas fa-car"></i>
+                <h3>Auto Engine Spare Parts</h3>
+                <p>La piezas exactas para tu motor.</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <img src="Image/part2.png" alt="">
+                <i class="fas fa-tools"></i>
+                <h3>parts repair</h3>
+                <p> Piezas Remanufacturadas.</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <img src="Image/part3.png" alt="">
+                <i class="fas fa-car-crash"></i>
+                <h3>car insurance</h3>
+                <p>Asegura tu presupuesto.</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <img src="Image/part4.png" alt="">
+                <i class="fas fa-gas-pump"></i>
+                <h3>oil change</h3>
+                <p>Aceite & filtros disponibles para ti.</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <img src="Image/part5.png" alt="">
+                <i class="fas fa-car-battery"></i>
+                <h3>Electric car parts replacement</h3>
+                <p>Las pieza electronicas que necesites.</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+
+        </div>
+
+        <!--Support box area-->
+        <section class="support">
+            <div class="box">
+
+                <i class="fas fa-headset"></i>
+                <h3>24/7 support</h3>
+                <p>Listos para responder todas tus preguntas.</p>
+                <a href="#" class="btn"> read more</a>
+
+            </div>
+        </section>
+
+        <!--End of services-->
+    </section>
+
+
+    <!--Featured cars for services establiched in details-->
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>featured cars</span></h1>
+
+        <div class="box-container box">
+
+            <div class="swiper featured-slider">
+
+
+
+                <!--Setting the automatic swiper-->
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <img src="Image/car-1.png" alt="">
+                        <div class="content">
+                            <h3>new model</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                            <a href="#" class="btn">check out</a>
+                        </div>
+                    </div>
+                    <!--Setting the automatic swiper-->
+                    <div class="swiper-slide box">
+                        <img src="Image/car-2.png" alt="">
+                        <div class="content">
+                            <h3>new model</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                            <a href="#" class="btn">check out</a>
+                        </div>
+                    </div>
+                    <!--Setting the automatic swiper-->
+                    <div class="swiper-slide box">
+                        <img src="Image/car-3.png" alt="">
+                        <div class="content">
+                            <h3>new model</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                            <a href="#" class="btn">check out</a>
+                        </div>
+                    </div>
+                    <!--Setting the automatic swiper-->
+                    <div class="swiper-slide box">
+                        <img src="Image/car-4.png" alt="">
+                        <div class="content">
+                            <h3>new model</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                            <a href="#" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </div>
+
+        <div class="box-container box">
+            <!--Setting swiper by slides-->
+            <div class="swiper featured-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+                        <img src="Image/car-5.png" alt="">
+                        <div class="content">
+                            <h3>new model</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                            <a href="#" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="Image/car-6.png" alt="">
+                        <div class="content">
+                            <h3>new model</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                            <a href="#" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="Image/car-7.png" alt="">
+                        <div class="content">
+                            <h3>new model</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                            <a href="#" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="Image/car-8.png" alt="">
+                        <div class="content">
+                            <h3>new model</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                            <a href="#" class="btn">check out</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+        <!--End of slides-->
+    </section>
+
+
+    <!--Reviews from our client's area-->
+    <section class="reviews" id="reviews">
+       
+        <h1 class="heading"><span>review</span></h1>
+        <h2>Whats Our Customer Say</h2>
+
+        <!--Setting swiper by slides-->
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="Image/pic-1.png" alt="">
+                    <div class="content">
+                        <p>El propio cliente, es el que va a hacer el seguimiento y encontrar lo que busca con facilidad.</p>
+                        <h3>john deo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/pic-2.png" alt="">
+                    <div class="content">
+                        <p>Pagina muy fiable y facil de usar no tube problemas.</p>
+                        <h3>Ana Lucia</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/pic-3.png" alt="">
+                    <div class="content">
+                        <p>Me ayudo a conseguir lo que necesitava, facil.</p>
+                        <h3>Daniel Vega</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/pic-4.png" alt="">
+                    <div class="content">
+                        <p>Facil y rapido, pude encontrar buenos precios, y es fiable.</p>
+                        <h3>Laura Valentin</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/pic-5.png" alt="">
+                    <div class="content">
+                        <p>Lo recomiendo mucho es muy fasil.</p>
+                        <h3>Alegandro Gala</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="Image/pic-6.png" alt="">
+                    <div class="content">
+                        <p>Pude encontrar el auto que buscaba.</p>
+                        <h3>Emma Noa</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <!--End of slides-->
+        </div>
+
+    </section>
+
+
+    <!--Subscription area-->
+    <section class="newsletter">
+
+        <h3>Subscribe for more updates</h3>
+        <p>La compañía en sí es una compañía muy exitosa. Se complace en ello.</p>
+
+        <form action="">
+            <input type="email" placeholder="enter your email">
+            <input type="submit" value="subscribe">
+        </form>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <!--Setting contact box title-->
+        <h1 class="heading"><span>contact</span> us</h1>
+
+        <div class="row">
+            <!--Setting Google maps-->
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12733.816716650661!2d-66.75784472947544!3d18.47215315389087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c02e709b2cd0ceb%3A0x3c2f70f3b52b3c74!2sUniversidad%20Interamericana%20de%20Puerto%20Rico%20-%20Recinto%20de%20Arecibo!5e0!3m2!1ses-419!2spr!4v1666723592529!5m2!1ses-419!2spr" allowfullscreen="" loading="lazy"></iframe>
+            <!--Contact Detail message variables-->
+            <form action="">
+                <h3>get in touch</h3>
+                <input type="text" placeholder="your name" class="box">
+                <input type="email" placeholder="your email" class="box">
+                <input type="tel" placeholder="subject" class="box">
+                <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!--Setting footer details-->
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Puerto Rico </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> UK </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Chaina </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> vehicles </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +132-564-8790 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +109-282-3433 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> Well Cars.edu </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i>Av.Catalina Santiago Chico, 00612 </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            </div>
+
+        </div>
+
+        <div class="credit"> created by company WELL CARS | all rights reserved </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!--Setting swiper sistem code-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--Link to JS-->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
