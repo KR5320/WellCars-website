@@ -468,7 +468,7 @@ section{
 
 .support {
     padding: 6rem 2rem;
-    background: url(./Image/suport.jpg) no-repeat;
+    background: url(../Image/suport.jpg) no-repeat;
     background-size: cover;
     background-position: center bottom;
     text-align: center;
@@ -566,7 +566,7 @@ section{
 
 .newsletter{
     padding:6rem 2rem;
-    background: url(/Image/letter-bg.png) no-repeat;
+    background: url(../Image/letter-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
